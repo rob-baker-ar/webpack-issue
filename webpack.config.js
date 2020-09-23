@@ -5,8 +5,8 @@ module.exports = {
 	entry: {
         main: './js/main.js',
     },
-	devtool: false,
-	//devtool: "source-map",
+	//devtool: false,
+	devtool: "source-map",
 	output: {
         path: path.resolve(__dirname, './dist'),
     },
