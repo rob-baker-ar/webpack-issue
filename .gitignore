@@ -1,0 +1,21 @@
+# Craft
+/.env
+/.idea
+
+# Node / Webpack / JS
+/node_modules/**
+/__profiler
+/__wp_temp
+
+# volumes / pdfs / images
+/static/volumes/**
+/static/pdfs/**
+/static/images/cache/**
+
+# storage
+/storage/backups/**
+/storage/composer-backups/**
+/storage/config-backups/**
+/storage/config-deltas/**
+/storage/logs/**
+/storage/runtime/**
